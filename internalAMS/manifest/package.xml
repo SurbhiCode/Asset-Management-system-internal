@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>*</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTestSuite</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>StaticResource</name>
+    </types>
+    
+<types>
+<members>AssetApexController</members>
+<members>Asset_Assignment_To_Employee_Handler</members>
+<members>Asset_AssignmentTriggerHandler</members>
+<members>AssetHandler</members>
+<members>DepreciationCalculationBatch</members>
+<members>Employee_Controller</members>
+<members>Employee_Handler</members>
+<members>Maintenance_Handler</members>
+<members>Maintenance_Status_alert_Batchclass</members>
+<members>Test</members>
+<name>ApexClass</name>
+</types>
+<types>
+<members>apexEmailNotifications</members>
+<name>ApexEmailNotifications</name>
+</types>
+<types>
+<members>Asset_AssignmentTrigger</members>
+<members>AssetTrigger</members>
+<members>Employee_trigger</members>
+<members>Maintenance_Trigger</members>
+<name>ApexTrigger</name>
+</types>
+<types>
+<members>Asset_Management_System</members>
+<name>CustomApplication</name>
+</types>
+<types>
+<members>Asset_Assignment__c.Asset_Id__c</members>
+<members>Asset_Assignment__c.Asset_Returned__c</members>
+<members>Asset_Assignment__c.Assgined_Date__c</members>
+<members>Asset_Assignment__c.Department__c</members>
+<members>Asset_Assignment__c.Department_Name__c</members>
+<members>Asset_Assignment__c.Employee__c</members>
+<members>Asset_Assignment__c.Is_Assigned__c</members>
+<members>Asset__c.Asset_Name__c</members>
+<members>Asset__c.Asset_Returned__c</members>
+<members>Asset__c.Asset_Status__c</members>
+<members>Asset__c.Brand_Name__c</members>
+<members>Asset__c.Configuration__c</members>
+<members>Asset__c.Current_Value__c</members>
+<members>Asset__c.Department__c</members>
+<members>Asset__c.Depreciation_Value__c</members>
+<members>Asset__c.Equipments__c</members>
+<members>Asset__c.Last_Maintance_Date__c</members>
+<members>Asset__c.Location__c</members>
+<members>Asset__c.Next_Maintance_Date__c</members>
+<members>Asset__c.Number_of_Records__c</members>
+<members>Asset__c.Purchased_Amount__c</members>
+<members>Asset__c.Purchased_Date__c</members>
+<members>Asset__c.Serial_Number__c</members>
+<members>Asset__c.Skipped_Maintenances__c</members>
+<members>Asset__c.Software_Installed__c</members>
+<members>Asset__c.Warranty_In_Months__c</members>
+<members>Department__c.Department_Contact__c</members>
+<members>Department__c.Department_Email__c</members>
+<members>Department__c.Head_Of_Department__c</members>
+<members>Department__c.Number_of_Employees__c</members>
+<members>Depreciation_Value__mdt.Depreciation_Percentage__c</members>
+<members>Depreciation_Value__mdt.Residual_Value__c</members>
+<members>Employee__c.Active__c</members>
+<members>Employee__c.Address__c</members>
+<members>Employee__c.Department_Name__c</members>
+<members>Employee__c.Email__c</members>
+<members>Employee__c.Employee_Name__c</members>
+<members>Employee__c.Joining_Date__c</members>
+<members>Employee__c.Location__c</members>
+<members>Employee__c.Phone__c</members>
+<members>Maintance_intervals__mdt.Interval_Period__c</members>
+<members>Maintenance__c.Asset_Received_For_Maintenance__c</members>
+<members>Maintenance__c.Assets__c</members>
+<members>Maintenance__c.Description__c</members>
+<members>Maintenance__c.Maintenance_Cost__c</members>
+<members>Maintenance__c.Maintenance_Name__c</members>
+<members>Maintenance__c.Maintenance_Start_Date__c</members>
+<members>Maintenance__c.Maintenance_Status__c</members>
+<members>Maintenance__c.Maintenance_Type__c</members>
+<members>Maintenance__c.Priority__c</members>
+<members>Maintenance__c.Service_Number__c</members>
+<name>CustomField</name>
+</types>
+<types>
+<members>Maintenance_Alert_Subject</members>
+<members>Maintenance_Co_ordinator</members>
+<name>CustomLabel</name>
+</types>
+<types>
+<members>Depreciation_Value.Air_conditioning_units</members>
+<members>Depreciation_Value.Boilers</members>
+<members>Depreciation_Value.Bookshelves</members>
+<members>Depreciation_Value.Cabinets</members>
+<members>Depreciation_Value.Cabinet_Table</members>
+<members>Depreciation_Value.Chair</members>
+<members>Depreciation_Value.Chillers</members>
+<members>Depreciation_Value.Data_Storage_Device</members>
+<members>Depreciation_Value.Ducts</members>
+<members>Depreciation_Value.Fans</members>
+<members>Depreciation_Value.Fax_Machine</members>
+<members>Depreciation_Value.Heating_systems</members>
+<members>Depreciation_Value.Keyboard</members>
+<members>Depreciation_Value.Laptop</members>
+<members>Depreciation_Value.Mobile_Phone</members>
+<members>Depreciation_Value.Monitor</members>
+<members>Depreciation_Value.Mouse</members>
+<members>Depreciation_Value.Printer</members>
+<members>Depreciation_Value.Projector</members>
+<members>Depreciation_Value.Router</members>
+<members>Depreciation_Value.Table</members>
+<members>Depreciation_Value.Tablet</members>
+<members>Depreciation_Value.Thermostats</members>
+<members>Depreciation_Value.Ventilation_systems</members>
+<members>Depreciation_Value.White_Boards</members>
+<members>Maintance_intervals.Air_conditioning_units</members>
+<members>Maintance_intervals.Bookshelves</members>
+<members>Maintance_intervals.Cabinets</members>
+<members>Maintance_intervals.Cabinet_Table</members>
+<members>Maintance_intervals.Chair</members>
+<members>Maintance_intervals.Fans</members>
+<members>Maintance_intervals.Fax_Machine</members>
+<members>Maintance_intervals.Keyboard</members>
+<members>Maintance_intervals.Laptop</members>
+<members>Maintance_intervals.Mobile_Phone</members>
+<members>Maintance_intervals.Monitor</members>
+<members>Maintance_intervals.Mouse</members>
+<members>Maintance_intervals.Printer</members>
+<members>Maintance_intervals.Projector</members>
+<members>Maintance_intervals.Table</members>
+<members>Maintance_intervals.Tablet</members>
+<name>CustomMetadata</name>
+</types>
+<members>Asset__c</members>
+<members>Asset_Assignment__c</members>
+<members>Maintenance__c</members>
+<members>Department__c</members>
+<members>Employee__c</members>
+<members>Maintance_intervals__mdt</members>
+<members>Depreciation_Value__mdt</members>
+<types>
+<members>Asset_Assignment__c</members>
+<members>Asset__c</members>
+<members>Assets_Status</members>
+<members>Department__c</members>
+<members>Employee__c</members>
+<members>Maintenance__c</members>
+<members>Records</members>
+<name>CustomTab</name>
+</types>
+<types>
+<members>AssetManagementSystemDashboard</members>
+<members>AssetManagementSystemDashboard/dCOLazQNdLflNKPJDVcfItzrsNwtvz</members>
+<members>AssetManagementSystemDashboard/erGFMROfBAIYTKEQfkzpKqLGSsLuDc</members>
+<members>AssetManagementSystemDashboard/ZWwsBpcqplWbvWOdgYzBoITXtSOyTL</members>
+<name>Dashboard</name>
+</types>
+<types>
+<members>Account.Standard_Account_Duplicate_Rule</members>
+<members>Contact.Standard_Contact_Duplicate_Rule</members>
+<members>Employee__c.No_Duplicates_Of_Employee_Phone_And_Email</members>
+<members>Lead.Standard_Lead_Duplicate_Rule</members>
+<name>DuplicateRule</name>
+</types>
+<types>
+<members>unfiled$public</members>
+<members>unfiled$public/After_Created_Maintanace_Email_Template</members>
+<members>unfiled$public/Before_Maintenance_Creation_Template</members>
+<members>unfiled$public/CommerceReorderPortalInvitation</members>
+<members>unfiled$public/Maintenance_Skip_Template</members>
+<members>unfiled$public/MarketingProductInquiryResponse</members>
+<members>unfiled$public/SalesNewCustomerEmail</members>
+<members>unfiled$public/SchedulerUnauthenticatedUserAppointmentTypeEmailTemplateForAmazonChime</members>
+<members>unfiled$public/SchedulerUnauthenticatedUserAppointmentTypeEmailTemplateForThirdParty</members>
+<members>unfiled$public/SchedulerUnauthenticatedUserEngagementChannelEmailTemplateForAmazonChime</members>
+<members>unfiled$public/SchedulerUnauthenticatedUserEngagementChannelEmailTemplateForThirdParty</members>
+<members>unfiled$public/SupportCaseAssignmentNotification</members>
+<members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
+<members>unfiled$public/SupportCaseCreatedWebInquiries</members>
+<members>unfiled$public/SupportCaseResponse</members>
+<members>unfiled$public/SupportEscalatedCaseNotification</members>
+<members>unfiled$public/SupportEscalatedCaseReassignment</members>
+<members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+<members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
+<members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
+<members>unfiled$public/SupportSelfServiceResetPassword</members>
+<members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
+<members>unfiled$public/test</members>
+<name>EmailTemplate</name>
+</types>
+<types>
+<members>Asset_Creation_using_Button</members>
+<members>Asset_Multiple_Creation</members>
+<members>Asset_Name_update</members>
+<members>Asset_Return_From_Employee</members>
+<members>Asset_Status_And_Location_And_Department_Updation_Flow</members>
+<members>Change_Asset_status</members>
+<members>Create_Maintenance_Flow</members>
+<members>Creation_Of_Default_Asset_For_Employee</members>
+<members>Email_Before_Maintenance_Is_Created</members>
+<members>Employee_InActive_flow</members>
+<members>Employee_Is_Not_Active</members>
+<members>fgh</members>
+<members>Mail_to_Maintenance_Co_ordinator</members>
+<members>Maintenance_Email_Generation</members>
+<members>Maintenance_OwnerId_change_to_Queue</members>
+<members>Message_to_Co_ordinator</members>
+<members>test</members>
+<members>test1</members>
+<name>Flow</name>
+</types>
+<types>
+<members>Asset_Creation_using_Button</members>
+<members>Asset_Multiple_Creation</members>
+<members>Asset_Name_update</members>
+<members>Asset_Return_From_Employee</members>
+<members>Asset_Status_And_Location_And_Department_Updation_Flow</members>
+<members>Change_Asset_status</members>
+<members>Create_Maintenance_Flow</members>
+<members>Creation_Of_Default_Asset_For_Employee</members>
+<members>Email_Before_Maintenance_Is_Created</members>
+<members>Employee_InActive_flow</members>
+<members>Employee_Is_Not_Active</members>
+<members>fgh</members>
+<members>Mail_to_Maintenance_Co_ordinator</members>
+<members>Maintenance_Email_Generation</members>
+<members>Maintenance_OwnerId_change_to_Queue</members>
+<members>Message_to_Co_ordinator</members>
+<members>test</members>
+<members>test1</members>
+<name>FlowDefinition</name>
+</types>
+<types>
+<members>Bangalore_Maintenance_Co_ordinators</members>
+<members>Dubai_Maintenance_Co_ordinators</members>
+<members>Hyderabad_Maintenance_Co_ordinators</members>
+<members>Maintenance_Technician_Group</members>
+<name>Group</name>
+</types>
+<types>
+<members>DE Default</members>
+<name>HomePageLayout</name>
+</types>
+<types>
+<members>IframeWhiteListUrlSettings</members>
+<name>IframeWhiteListUrlSettings</name>
+</types>
+<types>
+<members>Asset-Asset Layout</members>
+<members>Asset_Assignment__c-Asset Assignment Layout</members>
+<members>Asset_Assignment__c-Department Layout</members>
+<members>Asset_Assignment__c-Employee Layout</members>
+<members>Asset__c-Asset Layout</members>
+<members>Asset__c-Digital Asset Layout</members>
+<members>Asset__c-HVAC Asset Layout</members>
+<members>Asset__c-Physical Asset Layout</members>
+<members>Employee__c-Employee Layout</members>
+<members>Maintance_intervals__mdt-Maintance intervals Layout</members>
+<members>Maintenance__c-Maintenance Layout</members>
+<name>Layout</name>
+</types>
+<types>
+<members>Employee__c.Employee_Details_Unique</members>
+<name>MatchingRule</name>
+</types>
+<types>
+<members>Employee__c</members>
+<name>MatchingRules</name>
+</types>
+<members>Asset Custodian</members>
+<members>Asset Manager</members>
+<members>Department Head</members>
+<members>Executive</members>
+<members>Facility Manager</members>
+<members>Finance Manager</members>
+<members>IT Administrator</members>
+<members>Maintenance Co-ordinator</members>
+<members>Maintenance technician</members>
+<members>Office Manager</members>
+<members>SolutionManager</members>
+<types>
+<members>Maintenance_Queue</members>
+<name>Queue</name>
+</types>
+<types>
+<members>Asset_Assignment__c.Department</members>
+<members>Asset_Assignment__c.Employee_Record_type</members>
+<members>Asset__c.Digital_Assets</members>
+<members>Asset__c.HVAC_Assets</members>
+<members>Asset__c.Physical_Assets</members>
+<members>Metric.Completion</members>
+<members>Metric.Progress</members>
+<name>RecordType</name>
+</types>
+<types>
+<members>AssetManagement</members>
+<members>AssetManagement/Asset_Assigned_Status_qg9</members>
+<members>AssetManagement/Asset_Not_Assigned_f8q</members>
+<members>AssetManagementSystem</members>
+<members>AssetManagementSystem/Asset_Maintenance_Status_83e</members>
+<members>AssetManagementSystem/Asset_Report_wZM</members>
+<members>AssetManagementSystem/Assigment_Utilization_Cost_6CP</members>
+<members>AssetManagementSystem/Copy_of_New_Asset_and_Asset_Assignment_R_U0g</members>
+<members>AssetManagementSystem/Executive_Dashboard_CW7</members>
+<members>AssetManagementSystem/Maintenances_with_Assets_Report_Trial_nFO</members>
+<members>AssetManagementSystem/New_Asset_and_Asset_Assignment_Report_hLk</members>
+<members>AssetManagementSystem/New_Asset_with_Asset_Assignments_Report_miE</members>
+<members>AssetManagementSystem/Utilization_And_Maintenance_Costs_cGo</members>
+<members>EBotR_v3</members>
+<members>EBotR_v4</members>
+<members>EBotR_v5</members>
+<members>EinsteinBotReports</members>
+<members>EinsteinBotReports_v2</members>
+<members>unfiled$public</members>
+<members>unfiled$public/flow_screen_prebuilt_report</members>
+<name>Report</name>
+</types>
+<types>
+<members>Experience_Profile_Manager</members>
+<members>Location_Access_to_Facilities_Manager</members>
+<name>PermissionSet</name>
+</types>
+<types>
+<members>Asset_and</members>
+<members>Asset_and_Asset_Assignment</members>
+<members>screen_flows_prebuilt_crt</members>
+<members>test</members>
+<members>test2</members>
+<members>Utilization_and_maintenance_costs</members>
+<members>Utilization_and_maintenance_costss</members>
+<name>ReportType</name>
+</types>
+<types>
+<members>Asset_Assignment__c.Date_Validation</members>
+<members>Maintenance__c.Previous_Date_Validation</members>
+<name>ValidationRule</name>
+</types>
+
+
+    <version>59.0</version>
+</Package>

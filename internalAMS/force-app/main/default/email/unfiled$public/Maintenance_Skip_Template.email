@@ -1,0 +1,5 @@
+<h4> Hi {!User.Name}<h4><br>
+<p> The maintenance was created on {!Maintenance__c.CreatedDate} for Maintenance ID {!Maintenance__c.Name}. But still, the asset has not been received for maintenance. So we skip the maintenance. So attend the next maintenance accordingly. <p> <br>
+<h4>Thank You<h4>
+
+<P>Click this link for more Details :</p><p>{!Maintenance__c.Link}</p>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Asset__c$Name</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Asset__c.Maintenances__r$Maintenance_Cost__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Asset__c$Purchased_Amount__c</field>
+    </columns>
+    <columns>
+        <field>Asset__c$Asset_Status__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Asset__c$Asset_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Disposed</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Assigment Utilization Cost</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Asset_and__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Asset__c.Maintenances__r$Maintenance_Cost__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Asset__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

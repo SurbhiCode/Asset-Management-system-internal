@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equipments__c</fullName>
+    <externalId>false</externalId>
+    <label>Equipments</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Chair</fullName>
+                <default>false</default>
+                <label>Chair</label>
+            </value>
+            <value>
+                <fullName>Table</fullName>
+                <default>false</default>
+                <label>Table</label>
+            </value>
+            <value>
+                <fullName>Cabinet Table</fullName>
+                <default>false</default>
+                <label>Cabinet Table</label>
+            </value>
+            <value>
+                <fullName>Bookshelves</fullName>
+                <default>false</default>
+                <label>Bookshelves</label>
+            </value>
+            <value>
+                <fullName>Cabinets</fullName>
+                <default>false</default>
+                <label>Cabinets</label>
+            </value>
+            <value>
+                <fullName>White Boards</fullName>
+                <default>false</default>
+                <label>White Boards</label>
+            </value>
+            <value>
+                <fullName>Monitor</fullName>
+                <default>false</default>
+                <label>Monitor</label>
+            </value>
+            <value>
+                <fullName>Laptop</fullName>
+                <default>false</default>
+                <label>Laptop</label>
+            </value>
+            <value>
+                <fullName>Printer</fullName>
+                <default>false</default>
+                <label>Printer</label>
+            </value>
+            <value>
+                <fullName>Mouse</fullName>
+                <default>false</default>
+                <label>Mouse</label>
+            </value>
+            <value>
+                <fullName>Keyboard</fullName>
+                <default>false</default>
+                <label>Keyboard</label>
+            </value>
+            <value>
+                <fullName>Fax Machine</fullName>
+                <default>false</default>
+                <label>Fax Machine</label>
+            </value>
+            <value>
+                <fullName>Projector</fullName>
+                <default>false</default>
+                <label>Projector</label>
+            </value>
+            <value>
+                <fullName>Mobile Phone</fullName>
+                <default>false</default>
+                <label>Mobile Phone</label>
+            </value>
+            <value>
+                <fullName>Tablet</fullName>
+                <default>false</default>
+                <label>Tablet</label>
+            </value>
+            <value>
+                <fullName>Data Storage Device</fullName>
+                <default>false</default>
+                <label>Data Storage Device</label>
+            </value>
+            <value>
+                <fullName>Router</fullName>
+                <default>false</default>
+                <label>Router</label>
+            </value>
+            <value>
+                <fullName>Air conditioning units</fullName>
+                <default>false</default>
+                <label>Air conditioning units</label>
+            </value>
+            <value>
+                <fullName>Heating systems</fullName>
+                <default>false</default>
+                <label>Heating systems</label>
+            </value>
+            <value>
+                <fullName>Ventilation systems</fullName>
+                <default>false</default>
+                <label>Ventilation systems</label>
+            </value>
+            <value>
+                <fullName>Thermostats</fullName>
+                <default>false</default>
+                <label>Thermostats</label>
+            </value>
+            <value>
+                <fullName>Ducts</fullName>
+                <default>false</default>
+                <label>Ducts</label>
+            </value>
+            <value>
+                <fullName>Chillers</fullName>
+                <default>false</default>
+                <label>Chillers</label>
+            </value>
+            <value>
+                <fullName>Boilers</fullName>
+                <default>false</default>
+                <label>Boilers</label>
+            </value>
+            <value>
+                <fullName>Fans</fullName>
+                <default>false</default>
+                <label>Fans</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

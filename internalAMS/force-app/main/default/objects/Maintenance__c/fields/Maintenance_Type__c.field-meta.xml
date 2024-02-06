@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Maintenance_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Maintenance Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General Maintenance</fullName>
+                <default>false</default>
+                <label>General Maintenance</label>
+            </value>
+            <value>
+                <fullName>Hardware update</fullName>
+                <default>false</default>
+                <label>Hardware update</label>
+            </value>
+            <value>
+                <fullName>Software Update</fullName>
+                <default>false</default>
+                <label>Software Update</label>
+            </value>
+            <value>
+                <fullName>HVAC Maintenance</fullName>
+                <default>false</default>
+                <label>HVAC Maintenance</label>
+            </value>
+            <value>
+                <fullName>Routine Maintenance</fullName>
+                <default>false</default>
+                <label>Routine Maintenance</label>
+            </value>
+            <value>
+                <fullName>Warranty Service</fullName>
+                <default>false</default>
+                <label>Warranty Service</label>
+            </value>
+            <value>
+                <fullName>Battery Replacement</fullName>
+                <default>false</default>
+                <label>Battery Replacement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

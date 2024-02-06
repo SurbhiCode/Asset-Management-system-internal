@@ -1,0 +1,18 @@
+<template>
+    <template lwc:if={Employeetemp}>
+    <lightning-card icon-name="standard:team_member" title="Employee Creation Form">
+        <div class="slds-p-around_medium">
+            <template if:true={fields}>
+                <!-- <div class="image-container">
+                    <img src={employeebackground} alt="Image Alt Text" height="100px" 
+                    width="100px"/></div> -->
+                <lightning-record-form
+                    object-api-name='Employee__c'
+                    fields={fields}
+                    onsuccess={handleSuccess}
+                ></lightning-record-form>
+            </template>
+        </div>
+    </lightning-card>
+</template>
+</template>

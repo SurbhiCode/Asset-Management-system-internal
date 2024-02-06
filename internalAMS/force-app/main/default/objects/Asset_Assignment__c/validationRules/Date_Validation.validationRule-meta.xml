@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Validation</fullName>
+    <active>false</active>
+    <errorConditionFormula>Assgined_Date__c &lt;  TODAY()</errorConditionFormula>
+    <errorDisplayField>Assgined_Date__c</errorDisplayField>
+    <errorMessage>Assigned Date cannot be a previous date</errorMessage>
+</ValidationRule>

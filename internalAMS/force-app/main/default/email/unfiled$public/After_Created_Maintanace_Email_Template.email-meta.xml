@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>After Created Maintanace Email Template</name>
+    <style>none</style>
+    <subject>Alert on Asset Maintenance</subject>
+    <textOnly>Hi {!User.Name}
+
+The Maintance is created on {!Maintenance__c.CreatedDate} and the Maintenance id is  {!Maintenance__c.Name}.But still the Asset is not receeived for maintenance.Please follow up the maintenance As per Schuduled.
+
+
+Thank You</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

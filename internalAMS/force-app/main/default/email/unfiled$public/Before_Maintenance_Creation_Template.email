@@ -1,0 +1,4 @@
+<h4>Hi {!User.Name}<h4><br>
+        <p>The Maintance will be created on {!Asset__c.Next_Maintance_Date__c}.The Asset ID{!Asset__c.Name} will be coming for maintenance. Please follow up the maintenance as per Scheduled.<br>  You can refer this URL for further details: {!Asset__c.Link}<P>
+
+<h4>Thank You<h4>

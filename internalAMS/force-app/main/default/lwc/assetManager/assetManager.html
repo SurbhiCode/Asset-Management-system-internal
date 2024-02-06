@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Asset Manager">
+        <div class="slds-m-around_medium">
+            <lightning-button-group>
+                <lightning-button label="Create Single Asset" onclick={openSingleAssetModal}></lightning-button>
+                <lightning-button label="Create Multiple Assets" onclick={openMultipleAssetModal}></lightning-button>
+            </lightning-button-group>
+        </div>
+
+        <template if:true={isSingleAssetModalOpen}>
+            <c-create-single-asset onclose={closeSingleAssetModal}></c-create-single-asset>
+        </template>
+
+        <template if:true={isMultipleAssetModalOpen}>
+            <c-create-multiple-assets onclose={closeMultipleAssetModal}></c-create-multiple-assets>
+        </template>
+    </lightning-card>
+</template>

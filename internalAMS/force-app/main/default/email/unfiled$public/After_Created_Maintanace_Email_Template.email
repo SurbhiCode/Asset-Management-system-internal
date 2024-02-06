@@ -1,0 +1,7 @@
+<h4>Hi {!User.Name}<h4><br>
+        <p>The Maintance is created on {!Maintenance__c.CreatedDate} and the Maintenance id is  {!Maintenance__c.Name}.But still the Asset is not received for maintenance.Please follow up the maintenance As per Schuduled.<P>
+ 
+<p>click below link for details</p>
+<p>{!Maintenance__c.Link}</p>
+
+<h4>Thank You<h4>
